@@ -13,7 +13,7 @@ href="http://localhost:8080/bolicho.visao.web/css/bootstrap.min.css">
 </head>
 <body>
 <h2> Listagem de clientes</h2>
-<table>
+<table class="table">
    <tr>
       <th> CPF </th>
       <th> Nome </th>
