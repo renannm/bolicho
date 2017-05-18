@@ -29,21 +29,22 @@ jquery.dataTables.min.css">
 <script type="text/javascript">
 	$(function() {
 		$('table').dataTable({
-	        "language": {
-	            "lengthMenu": "Mostrando _MENU_ registros por página",
-	            "zeroRecords": "Nenhuma Ocorrência",
-	            "info": "Mostrando Página _PAGE_ of _PAGES_",
-	            "infoEmpty": "Sem regustros",
-	            "infoFiltered": "(Filtrado de  _MAX_ total Registros)",
-	            "search" : "buscar"
-	        },
-		 "paginate": {
-		        "first":      "Primeiro",
-		        "last":       "Último",
-		        "next":       "Próximo",
-		        "previous":   "Anterior"
-		    },
-	    } );
+			"language" : {
+				"lengthMenu" : "Mostrando _MENU_ registros por página",
+				"zeroRecords" : "Nenhuma Ocorrência",
+				"info" : "Mostrando Página _PAGE_ of _PAGES_",
+				"infoEmpty" : "Sem regustros",
+				"infoFiltered" : "(Filtrado de  _MAX_ total Registros)",
+				"search" : "Buscar",
+				"paginate" : {
+					"first" : "Primeiro",
+					"last" : "Último",
+					"next" : "Próximo",
+					"previous" : "Anterior"
+				}
+			}
+
+		});
 
 	})
 </script>
@@ -60,12 +61,12 @@ jquery.dataTables.min.css">
 				</tr>
 			</thead>
 			<tbody>
-			<c:forEach items="${clientes}" var="cli">
-				<tr>
-					<td>${cli.cpf }</td>
-					<td>${cli.nome }</td>
-				</tr>
-			</c:forEach>
+				<c:forEach items="${clientes}" var="cli">
+					<tr>
+						<td>${cli.cpf }</td>
+						<td>${cli.nome }</td>
+					</tr>
+				</c:forEach>
 			</tbody>
 		</table>
 
