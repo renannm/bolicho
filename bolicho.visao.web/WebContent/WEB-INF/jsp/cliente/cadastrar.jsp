@@ -12,18 +12,15 @@
 <body>
 	<div class="container">
 		<h2>Cadastro de cliente</h2>
-
 		<form action="gravar">
 			<div class="form-group">
-				<label for="txtCPF">CPF:</label> <input
-					class="form-control" type="text" name="cliente.cpf" id="txtCPF"
-					class="form-control">
+				<label for="txtCPF">CPF:</label> <input class="form-control"
+					type="text" name="cliente.cpf" id="txtCPF" class="form-control">
 			</div>
 
 			<div class="form-group">
-				<label for="txtNome">Nome:</label> <input
-					class="form-control" type="text" name="cliente.nome" id="txtNome"
-					class="form-control">
+				<label for="txtNome">Nome:</label> <input class="form-control"
+					type="text" name="cliente.nome" id="txtNome" class="form-control">
 			</div>
 			<div class="form-group">
 				<input type="submit" class="btn btn-success" value="gravar">
