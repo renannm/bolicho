@@ -43,9 +43,7 @@ jquery.dataTables.min.css">
 					"previous" : "Anterior"
 				}
 			}
-
 		});
-
 	})
 </script>
 
@@ -72,9 +70,7 @@ jquery.dataTables.min.css">
 
 		<a class="btn btn-primary" href="cadastrar"> <span
 			class="glyphicon glyphicon-plus"></span> Adicionar
-		</a> <a class="btn btn-secondary" href=""> <span
-			class="glyphicon glyphicon-home"></span> Home
-		</a>
+		</a> 
 	</div>
 
 </body>
