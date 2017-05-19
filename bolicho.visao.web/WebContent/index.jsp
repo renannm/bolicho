@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Bolicho WEB</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<jsp:include page="importacoes.jsp"></jsp:include>
 </head>
 <body>
      <div class="panel panel-default">
